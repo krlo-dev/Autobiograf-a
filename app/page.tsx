@@ -4,8 +4,6 @@ import ChapterFooterNav from "./components/ChapterFooterNav";
 import { ficha, principios, profile } from "./data/site";
 
 export default function Home() {
-  const year = new Date().getFullYear();
-
   return (
     <>
       {/* Hero */}

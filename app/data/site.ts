@@ -266,11 +266,6 @@ export const musica = {
   title: "Música y concentración",
   text: "Suelo tener música de fondo mientras estudio o programo, algo que ayude a mantener el ritmo sin quitar concentración. Con el tiempo se ha vuelto casi un ritual antes de sentarme a trabajar.",
   tags: ["Lo-fi", "Instrumental", "Rutina de enfoque"],
-  // Alturas relativas (0-1) para dibujar la onda decorativa de la tarjeta.
-  waveform: [
-    0.3, 0.5, 0.8, 0.4, 0.6, 0.9, 0.35, 0.55, 0.7, 0.4, 0.25, 0.6, 0.85, 0.45,
-    0.5, 0.75, 0.3, 0.6, 0.4, 0.65, 0.9, 0.35, 0.5, 0.7,
-  ],
 };
 
 export const teclados = {

@@ -49,14 +49,21 @@ export default function InteresesPage() {
                 </span>
               ))}
             </div>
-            <div className="mt-6 flex h-16 items-end gap-1 rounded-sm bg-surface-container-low p-3">
-              {musica.waveform.map((height, index) => (
-                <span
-                  key={index}
-                  className="w-full rounded-full bg-on-surface-variant/50"
-                  style={{ height: `${Math.round(height * 100)}%` }}
-                />
-              ))}
+            <div className="mt-6 overflow-hidden rounded-sm">
+              <span className="rounded-sm border border-outline-variant px-2.5 py-1 font-mono text-label-sm uppercase text-on-surface-variant">
+                Canción favorita!
+              </span>
+              <iframe
+                style={{ borderRadius: "12px" }}
+                src="https://open.spotify.com/embed/track/7yapVRtcar5331vH7ACfwT?utm_source=generator"
+                width="100%"
+                height="152"
+                frameBorder="0"
+                allowFullScreen
+                allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
+                loading="lazy"
+                className="mt-5"
+              />
             </div>
           </article>
 
